@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+   }
+   
+   body {
+      background-image: linear-gradient(to bottom right, rgb(91, 177, 198) , rgb(172, 239, 172));
+      background-repeat: no-repeat;
+      height: 100%;
+      text-align: center;
+    }
+    h1 {
+        color: white;
+        font-family: 'Courier New', monospace;
+        left: 30%;
+        margin-top: 100px;
+        margin-bottom: 180px;
+        align-items: center;
+      }
+
+      form > label {
+        display: inline-table;
+        color: white;
+        font-family: 'Courier New', monospace;
+        padding-right: 20px;
+        margin: 5px 5px 5px 5px;
+      }
+      form > input {
+        display: inline-table;
+        padding: 5px 15px 5px 15px;
+        margin: 5px 5px 5px 5px;
+        width: 300px;
+      }
+
+      form > button {
+        color: green;
+        display: inline-table;
+        padding: 5px 15px 5px 15px;
+        margin: 5px 5px 5px 5px;
+      }
